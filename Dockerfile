@@ -1,6 +1,6 @@
-LABEL maintainer="HSIEH, Li-Yi"
-
 FROM alpine:3.3
+
+LABEL maintainer="HSIEH, Li-Yi"
 
 RUN apk update
 RUN apk add php-fpm
