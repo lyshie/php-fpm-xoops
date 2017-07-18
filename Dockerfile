@@ -3,7 +3,7 @@ FROM alpine:3.3
 LABEL maintainer="HSIEH, Li-Yi"
 
 RUN apk update
-RUN apk add php-fpm php-zlib php-mysqli php-xml php-openssl php-gd php-iconv php-gmp php-ftp php-curl
+RUN apk add php-fpm php-zlib php-mysqli php-xml php-openssl php-gd php-iconv php-gmp php-ftp php-curl php-json
 
 RUN deluser xfs
 RUN addgroup -g 33 www-data
